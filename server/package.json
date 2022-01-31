@@ -1,0 +1,19 @@
+{
+	"name": "server",
+	"version": "0.1.0",
+	"main": "index.js",
+	"author": "Shukhrat Rustamov <shukhrat.rustamov04@gmail.com> (https://www.instagram.com/__shukha__/)",
+	"license": "MIT",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.17.2",
+		"express-ws": "^5.0.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	},
+	"scripts": {
+		"dev": "nodemon",
+		"start": "node"
+	}
+}
